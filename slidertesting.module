@@ -28,7 +28,7 @@ function slidertesting_help($route_name, RouteMatchInterface $route_match) {
  */
 function slidertesting_theme($existing, $type, $theme, $path) {
   return array(
-    'Slide'=> array(
+    'slidetest'=> array(
       'variables' => array('sources'=>NULL),
     ),
     );
