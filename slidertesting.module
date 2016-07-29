@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains slidertesting.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function slidertesting_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the slidertesting module.
+    case 'help.page.slidertesting':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This it to test develop a Custom Slider Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,8 @@
+name: SliderTesting
+type: module
+description: This it to test develop a Custom Slider Module
+core: 8.x
+package: Custom
+dependencies:
+  - media_entity
+  - media_entity_slideshow
